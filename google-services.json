@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "153270533221",
+    "firebase_url": "https://wordle-game-98d6b-default-rtdb.firebaseio.com",
+    "project_id": "wordle-game-98d6b",
+    "storage_bucket": "wordle-game-98d6b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:153270533221:android:be22f1c01a7239597f1a8c",
+        "android_client_info": {
+          "package_name": "com.example.wordlegamemobilodev"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "153270533221-s54982qavj77703ueru1osr35lhoammq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-riPdnIzno076OkvZl2QusWPtIhvXF8Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "153270533221-s54982qavj77703ueru1osr35lhoammq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

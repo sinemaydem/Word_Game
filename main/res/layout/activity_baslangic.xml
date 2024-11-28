@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@mipmap/img_1"
+tools:context=".Baslangic">
+
+<Button
+    android:id="@+id/exitButton"
+    android:layout_width="352dp"
+    android:layout_height="65dp"
+    android:background="@mipmap/stone"
+    android:onClick="clickExitBtn"
+    android:text="@string/k"
+    android:textSize="20sp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.406"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/scoreButton"
+    app:layout_constraintVertical_bias="0.073"
+    tools:ignore="UsingOnClickInXml" />
+
+<Button
+    android:id="@+id/scoreButton"
+    android:layout_width="352dp"
+    android:layout_height="65dp"
+    android:background="@mipmap/stone"
+    android:onClick="clickHighScoreBtn"
+    android:text="@string/skor_tablosu1"
+    android:textSize="20sp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.403"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/lastGameButon"
+    app:layout_constraintVertical_bias="0.059"
+    tools:ignore="UsingOnClickInXml" />
+
+    <TextView
+        android:id="@+id/hello"
+        android:layout_width="193dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="72dp"
+        android:gravity="center"
+        android:text="HOŞGELDİN"
+        android:textColor="@color/design_default_color_background"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/nameView"
+        android:layout_width="166dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="4dp"
+        android:gravity="center"
+        android:textColor="@color/design_default_color_surface"
+        android:textSize="36sp"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hello"
+        />
+
+    <Button
+        android:id="@+id/startButon"
+        android:layout_width="352dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="48dp"
+        android:background="@mipmap/stone"
+        android:onClick="clickStartBtn"
+        android:text="@string/yeni_oyuna_ba_la1"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.406"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nameView"
+        tools:ignore="UsingOnClickInXml" />
+
+    <Button
+    android:id="@+id/lastGameButon"
+    android:layout_width="352dp"
+    android:layout_height="65dp"
+    android:layout_marginTop="12dp"
+    android:background="@mipmap/stone"
+    android:onClick="clickLastGameBtn"
+    android:text="@string/devam_et1"
+    android:textSize="20sp"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.403"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/startButon"
+    tools:ignore="UsingOnClickInXml" />
+</androidx.constraintlayout.widget.ConstraintLayout>
